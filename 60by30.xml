@@ -19,14 +19,14 @@
       </block>
     </statement>
   </block>
-  <block type="robot_delay" id="25" inline="true" x="208" y="287">
-    <value name="DELAY">
-      <block type="math_number" id="23">
-        <field name="NUM">1300</field>
-      </block>
-    </value>
+  <block type="movement_right" id="16" x="208" y="265">
     <next>
-      <block type="movement_right" id="16">
+      <block type="robot_delay" id="25" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="23">
+            <field name="NUM">1300</field>
+          </block>
+        </value>
         <next>
           <block type="movement_stop" id="6"></block>
         </next>
